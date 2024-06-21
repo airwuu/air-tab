@@ -1,2 +1,3 @@
 # airwu-newtabs
-Quick app for 
+Quick app for my newtabs
+
