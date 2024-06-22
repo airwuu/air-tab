@@ -1,7 +1,5 @@
 # air-tabs
 A quick React app to override New Tabs in Chrome. Built with React and TailwindCSS
 
-![image](https://github.com/airhornwho/air-tab/assets/77591592/2744371d-8787-4690-bdb0-c66e8b49642d)
-
-
+![2024-06-2121-26-24online-video-cutter com-ezgif com-optimize](https://github.com/airhornwho/air-tab/assets/77591592/083f30a7-3927-461a-bae1-c0ead810d725)
 
