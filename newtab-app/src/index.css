@@ -2,3 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+  #layers::before {
+    content: ' ';
+    position: absolute;
+    top: -50px;
+    left: 80%;
+    width: 72px;
+    height: 50px;
+    background-image: url('http://imgur.com/ilhrli3.png');
+    background-size: 72px 50px;
+    z-index: 100;
+    animation: shooting-star 500ms linear 3s;
+  }
+  
+  @keyframes shooting-star {
+    0% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+    25% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate3d(-270px, 180px, 0);
+    }
+  }
