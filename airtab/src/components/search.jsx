@@ -26,6 +26,7 @@ const Search = () => {
                 value={searchTerm}
                 onChange={(e)=> setSearchTerm(e.target.value)}
                 onKeyDown={handleSearch}
+                autoComplete='off'
                 /> 
             </div>
         </div>
