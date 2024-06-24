@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Search = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const handleSearch = (e) => {
+    if (e.key === 'Enter') {
+      const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchTerm)}`;
+      window.open(searchUrl, '_self');
+    }
+  };
   return (
     <>
         <div class='min-w-full mx-auto'>
@@ -15,7 +22,11 @@ const Search = () => {
                 class="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
                 type="text"
                 id="search"
-                placeholder="Search something.." /> 
+                placeholder="Search something.."
+                value={searchTerm}
+                onChange={(e)=> setSearchTerm(e.target.value)}
+                onKeyDown={handleSearch}
+                /> 
             </div>
         </div>
     </>
