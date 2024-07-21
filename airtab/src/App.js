@@ -21,7 +21,7 @@ function App() {
           <div className="animate-fade opacity-0 min-w-full" style={{animationDelay: '0.5s'}}><Search className=""></Search></div>
           {/* Cards */}
           <div className="shortcuts flex flex-row space-x-3">
-            <div className="animate-dropin opacity-0" style={{animationDelay: '0.5s'}}><Card title="Github" imageURL={'https://cdn-icons-png.flaticon.com/512/25/25231.png'} websiteURL="https://github.com/airhornwho"/></div>
+            <div className="animate-dropin opacity-0" style={{animationDelay: '0.5s'}}><Card title="Github" imageURL={'https://cdn-icons-png.flaticon.com/512/25/25231.png'} websiteURL="https://github.com/airwuu"/></div>
             <div className="animate-dropin opacity-0" style={{animationDelay: '0.6s'}}><Card title="Reddit" imageURL={'https://images.squarespace-cdn.com/content/v1/5c5554d316b64061c6f8a20d/1630949829757-WXNOUZ8R4QQCXMIY4YMG/What-Is-The-Reddit-Logo-Called.png?format=1500w'} websiteURL="https://www.reddit.com/"/></div>
             <div className="animate-dropin opacity-0" style={{animationDelay: '0.7s'}}><Card title="Roblox" imageURL={'https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/0/e/e/0eeeb19633422b1241f4306419a0f15f39d58de9.png'} websiteURL="https://www.roblox.com/home"/></div>
             <div className="animate-dropin opacity-0" style={{animationDelay: '0.8s'}}><Card title="Youtube" imageURL={'https://www.pngall.com/wp-content/uploads/13/Logo-Youtube-PNG-Pic.png'} websiteURL="https://www.youtube.com/"/></div>
